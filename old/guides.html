@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="main/img/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Гайды</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark mayheader">
+    <div class="container-fluid">
+        <a class="navbar-brand mlogo" href="index.html">
+          <img src="main/img/main.png" alt="Maydilsiel" width="43" class="d-inline-block align-text-top">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav sizepage">
+          <li class="nav-item">
+            <a class="nav-link mpage" aria-current="page" href="cloud.html">Облако</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mactive" aria-current="page" href="guides.html">Гайды из видео</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mpage" aria-current="page" href="referal.html">Ссылки из видео</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mpage" aria-current="page" href="soft.html">Рекомендуеммые программы</a>
+          </li>
+          <li class="nav-item mpage">
+            <a class="nav-link mpage" aria-current="page" href="others.html">Другие рекомендаций</a>
+          </li>
+          <li class="nav-item mpage">
+            <a class="nav-link mpage" aria-current="page" href="winmay.html">WinMay 1.5</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!--ot1-->
+      <div class="container">
+        <!--ot2-->
+        <br>
+        <center>
+          <h1>Гайды. </h1>
+          <hr>
+        </center>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Как отключить обновление Windows ?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <br>
+              <h1>Как отключить обновление Windows ?</h1>
+            <p>Дата: 29/05/22</p>
+            <hr>
+            <br>
+            <p>В этой статье, я расскажу как отключить <b>обновление Windows</b>. Без лишний воды, мы приступаем!</p>
+            <ul>
+              <li>Откройте пуск и напишите слово "Службы"</li>
+              <li>Откройте "Службы"</li>
+              <li>Найдите параметр "Центр обновлений Windows"</li>
+              <li>Поставьте тип запуска "Отключить"</li>
+              <li>Поставьте тип состояний "Остановить"</li>
+              <li>После всех этих операций, нажмите на "ОК"</li>
+            </ul>
+            <p>Все готово! Теперь вы можете не беспокойться об обновлений и нагрузке о ПК :)</p>
+            <p>Пример вы можете посмотреть прямо здесь :)</p>
+            <div class="ratio ratio-21x9">
+              <iframe src="https://www.youtube.com/embed/C-9FYkmJH9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Как преобразовать диск в GPT/MBR или MBR/GPT ?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <br>
+              <h1>Как преобразовать диск в GPT/MBR или MBR/GPT ?</h1>
+              <p>Дата: --/--/--</p>
+              <hr>
+            <p>Обычно у людей возникает такая проблема при установке Windows 7/8/8.1/10, с такой проблемой “Установка Windows в данную область жесткого диска невозможна. Неизвестный тип раздела”. Возможно проблема в том что у вас стоит формат MBR, если вы загрузились с UEFI режима."</p>
+            <p>Есть два решения этой проблемы.</p>
+            <p>Решение 1: Загрузитесь через Legacy Boot, если у вас еще такая осталась
+
+              Как это сделать ? Все очень просто!
+              Зайдите в BiOS, У вас может быть любая клавиша, но у меня BiOS включается клавишей F2
+              </p>
+              <ul>
+                <li>Esc</li>
+                <li>F2</li>
+                <li>Delete</li>
+                <li>Ctrl+Alt+Esc</li>
+                <li>S</li> 
+              </ul>
+              <p>Зайдите во вкладку Boot, Startup или Boot Priority и у вас должен быть такой пункт.</p>
+              <p>Для ThinkPad Setup: UEFI/Legacy Boot, либо ставим Both либо ставим Legacy Only, и загружаемся на флешку с Windows 8/10</p>
+              <p>Для Aptio Setup Utility: Boot mode Select -> Вместо UEFI выберите Legacy</p>
+              <p>Для InsydeH20 Setup Utility: Boot Mode -> Legacy Support.</p>
+              <br>
+              <p>Решение 2</p>
+              <p>Если у вас только UEFI, то вам придётся перейти ко 2-ому решению:</p>
+              <div class="alert alert-danger d-flex align-items-center" role="alert">
+                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                <div>
+                  ВНИМАНИЕ! ЭТО ВСЕ НА СВОЙ СТРАХ И РИСК, ВСЯ ИНФОРМАЦИЯ НА ДИСКЕ БУДЕТ СТЕРТА ПОД ЧИСТУЮ
+                  ЕСЛИ У ВАС ОСТАЛИСЬ КАКИЕ-ТО ВАЖНЫЕ ФАЙЛЫ, ТО ЛУЧШЕ ПЕРЕКИНЬТЕ НА ДРУГОЙ КОМПЬЮТЕР, МЫ НЕ ОТВЕЧАЕМ ЗА ТЕ ДЕЙСТВИЯ КОТОРЫЕ ВЫ БУДЕТЕ СОВЕРШАТЬ!
+                </div>
+                </div>
+                <br>
+                <p>Для начало, чтобы запустить консоль, нажмите на Shift+F10</p>
+                <p>После этого у вас откроется консоль, затем напишите эту команду
+                  diskpart</p>
+                  <p>У вас откроется консоль DISKPART></p>
+                  <p>Затем введите эту команду “list disk”</p>
+                  <p>У вас должно быть так, если у вас отображается диск с наименьшим объемом памяти, то не выбирайте его, эта ваша флешка. Если у вас диск с объемом выше чем второй диск, то выбирайте именно его это ваш диск! </p>
+                  <p>Введите следующую команду “Select disk [ ]” вместо [ ] тут должна ваша цифра жесткого диска, в моём случае это 0</p>
+                  <p>Если уже выбрали то прописываем следующую команду “clean”, это форматирование вашего диска, без него он не сможет конвертировать раздел</p>
+                  <p>После завершения, мы уже сможем конвертировать раздел в GPT или же MBR: Для этого прописываем эту команду “convert gpt” или “convert mbr”
+                    Вот и всё, надеюсь я тебе помог ;) кстати, подпишись на мой канал, там я снимаю гайды и эксперименты с Windows и + Там моя презентация моей же сборки :)
+                    </p>
+                    <p>Если вам ничего не понятно, посмотрите видео на нашем канале :)</p>
+                    <div class="ratio ratio-21x9">
+                      <iframe src="https://www.youtube.com/embed/JvkthunWX64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+              </div>
+            </div>
+        </div>
+        <!--ot3-->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; Проект Maydilsiel был создан в 2020-2022 году. Работает на базе Github</p>
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="https://youtube.com/c/maydilsiel" class="nav-link px-1">Youtube</a></li>
+            <li class="nav-item"><a href="https://vk.com/maydilsiel_official" class="nav-link px-1">VK</a></li>
+            <li class="nav-item"><a href="https://www.instagram.com/maydilsiel" class="nav-link px-1">instagram</a></li>
+            <li class="nav-item"><a href="https://ertorworld.ru" class="nav-link px-1">Ertorworld</a></li>
+            <li class="nav-item"><a href="https://ds1nc.site" class="nav-link px-1">DesConnet</a></li>
+          </ul>
+        </footer>
+      </div>
+      <script src="js/bootstrap.js"></script>
+</body>
+</html>
