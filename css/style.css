@@ -1,0 +1,224 @@
+@font-face {
+    font-family: gardens-cm;
+    src: url(../fonts/gardens-cm.ttf);
+  }
+
+body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    background: rgba(255, 255, 255, 0.637);
+    margin-right: 10px;
+    width: 5px;
+    overflow-y: auto;
+    scrollbar-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    transition: 0.5s;
+    border-radius: 15px;
+    background: rgb(255, 0, 221);
+    transition: 1s;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(122, 0, 100);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(190, 0, 105);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    overflow-y: auto;
+    scrollbar-color: transparent;
+}
+
+html {
+    background: rgb(174, 86, 139);
+}
+
+a, p, li, h1, h2, h3, h4, h5, h6 {
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(0, 94, 148);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 50, 79);
+    text-decoration: none;
+}
+
+.fota {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.fota:hover {
+    color: rgb(255, 0, 204);
+}
+
+header {
+    background: rgb(155, 25, 103);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    color: #fff;
+    font-family: gardens-cm;
+    padding-left: 10px;
+    transition: 0.3s;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.logo:hover {
+    color: rgb(221, 219, 219);
+}
+
+.nav {
+    color: #fff;
+    vertical-align: 3px;
+	margin-right: 6px;
+    transition: 0.2s;
+}
+
+.nav:hover {
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+    color: black;
+    vertical-align: 3px;
+	margin-right: 6px;
+}
+
+.active {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    color: black;
+    background-color: #fff;
+    vertical-align: 3px;
+	margin-right: 6px;
+    transition: 0.5s;
+}
+
+.container {
+    background-color: #fff;
+    color: #000;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 30px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 7px;
+    padding-right: 7px
+}
+
+.button {
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-download {
+    border-radius: 10px;
+    transition: 0.3s;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgb(0, 111, 20);
+}
+
+.btn-download:hover {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-download:active {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.welcome {
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mordenblue {
+    background-color: #fff;
+    color: #000;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 30px;
+}
+
+.menusuite {
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
